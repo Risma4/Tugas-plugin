@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascrip</title>
+</head>
+<body>
+    
+    <script>
+    // mutable = variabel yang bisa diubah valuenya (let)
+ // imuttable = variabel yang tidak bisa diubah (const)
+ // tipedata = string,number,boolean,array,objek,
+ // operasi aritmatika = +-*/,%,>,<,=(mendelarasikan nilai),==(membedakan nilai),===(membandingkan nilai dgn tipedata),!=(),+=,-=,*=,/=
+ // pengondisikan (if,switch case)
+ function ganjilgenap(params){
+     if(params % 2 === 0){
+         console.log(params+" angka genap");
+     }else {
+        console.log(params+" angka ganjil");
+
+     }
+ }
+ // if,swict case,
+ //ganjilgenap(12)
+
+ //nilai = nilai + nilai yang kalian tambah 
+ let nilai = 0;
+ nilai += 10;
+ // nilai = 0 + 10
+ console.log(nilai);
+ nilai += 12;
+ console.log(nilai);
+
+function checkGrade(nilai){
+    if (nilai < 100 && nilai > 79){
+    console.log("A");
+}else if (nilai < 80 &&  nilai > 65){
+    console.log("B");
+}else if (nilai < 66 &&  nilai > 50){
+    console.log("C");
+}else if(nilai < 51 && nilai > 0){
+    console.log("D");
+}else{
+    console.log("anda terlalu cerdas");
+}
+}
+checkGrade(80)
+checkGrade(70)
+checkGrade(60)
+checkGrade(40)
+checkGrade(150)
+
+     </script>
+</body>
+</html>
